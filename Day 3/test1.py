@@ -1,0 +1,6 @@
+f = open("test.txt", "w", encoding="utf-8")
+f.write("Hello Python!\n")
+f.write("Hello Python!\n")
+f.write("Hello Python!\n")
+f.write("Hello Python!\n")
+f.close()
