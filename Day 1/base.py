@@ -13,7 +13,7 @@ print(a+last_name)
 # 자료형
 
 a_list = ['사과', '밤', '배']
-b_list = ['스카', '요닝', ['에밀', '앙닥' ]]
+b_list = ['스카', '요닝', ['에밀', '앙닥']]
 
 
 print(a_list[1])
@@ -35,3 +35,11 @@ a_dict['fruits'] = c_list
 
 print(a_dict)
 print(a_dict['fruits'][1])
+
+d_list = ['배', '참외', '딸기']
+b_dict = {'computer': 'IBM', 'TV': 'LG', 'Crime': 'Samsung'}
+
+# b_dict['fruit2'] = d_list
+d_list.append(b_dict)
+
+print(d_list)
